@@ -1,0 +1,36 @@
+:root {
+  --background: #ffffff;
+  --foreground: #000;
+  --green: green;
+  --orange: orange;
+  --red: red
+}
+body {
+    background-color: var(----background);
+}
+.center {
+    text-align: center;
+}
+.container {
+    padding: 36px;
+    width: 100%;
+}
+.italic {
+    font-style: italic;
+}
+.green {
+    background-color: var(--green);
+}
+.orange {
+    background-color: var(--orange);
+}
+.padding-0 {
+    padding: 0px;
+}
+.red{
+    background-color: var(--red);
+}
+.width-1 {
+    width: 100%;
+    height: auto;
+}
